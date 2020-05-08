@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sylani Student Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<img src="Saylani-logo.png">
+	<h1 class="heading">STUDENT REGISTRATION FORM</h1>
+	<form action="thankyou.html" method="post">
+<label>FIRST NAME</label>
+<input type="text" name="firstname" maxlength="30" placeholder="Enter first name" required>(max 30 characters a-z and A-Z)<br><br>
+<label>LAST NAME</label>
+<input type="text" name="lastname" maxlength="30" placeholder="Enter last name"  required>(max 30 characters a-z and A-Z)<br><br>
+<label>DATE OF BIRTH</label>
+<input type="date" name="dob"  required><br><br>
+<label>EMAIL</label>
+<input type="email" name="email" placeholder="Enter email address"  required><br><br>
+<label >MOBILE NUMBER</label>
+<input type="tel" name="mobile" maxlength="10" placeholder="Enter mobile number"  required>(10 digit number)<br><br>
+<label for="gender">GENDER</label>
+Male
+<input type="radio" value="Male" name="gender" checked>
+Female
+<input type="radio" value="Female" name="gender"><br><br>
+<label >ADDRESS</label>
+ <textarea name="address"  required></textarea><br><br>
+<label>CITY</label>
+<input type="text" name="city" maxlength="30" placeholder="Enter city name"  required>(max 30 characters a-z and A-Z)<br><br>
+<label>PINCODE</label>
+<input type="number" name="pincode"  maxlength="6" minlength="6" placeholder="Enter pincode"  required>(6 digit number)<br><br>
+<label>STATE</label>
+<input type="text" name="state" maxlength="30" placeholder="Enter state"  required>(max 30 characters a-z and A-Z)<br><br>
+<label>COUNTRY</label>
+<input type="text" name="country" placeholder="Enter country"  required><br><br>
+<label for="hobbies" required>HOBBIES</label>
+
+Drawing
+<input type="checkbox" name="hobbies" value="drawing" >
+Singing
+<input type="checkbox" name="hobbies" value="singing">
+Dancing
+<input type="checkbox" name="hobbies" value="dancing">
+Sketching
+<input type="checkbox" name="hobbies" value="sketching"><br>
+<label>Others</label>
+<input type="checkbox" name="hobbies" value="others">
+<input type="text" name="hobbies"><br><br>
+
+<table required>
+	<tr class="heading">
+		<th>Qualification</th>
+	<th>Sr. No</th>
+	<th>Examination</th>
+		<th>Board</th>
+			<th>Percentage</th>
+				<th>Year of Passing</th>
+			</tr>
+
+			<tr>
+		<th></th>
+	<th>1</th>
+	<th>Class X</th>
+		<td><input type="text" name="board" maxlength="10"></td>
+			<td><input type="number" step="0.01" min="0" max="100"  name="percentage"></td>
+				<td><input type="text" name="yearofpassing"></td>
+			</tr>
+
+			<tr>
+		<th></th>
+	<th>2</th>
+	<th>Class XII</th>
+		<td><input type="text" name="board" maxlength="10"></td>
+			<td><input type="number" step="0.01" min="0" max="100"  name="percentage"></td>
+				<td><input type="text" name="yearofpassing"></td>
+			</tr>
+			<tr>
+		<th></th>
+	<th>3</th>
+	<th>Graduation</th>
+		<td><input type="text" name="board" maxlength="10"></td>
+			<td><input type="number" step="0.01" min="0" max="100"  name="percentage"></td>
+				<td><input type="text" name="yearofpassing"></td>
+			</tr>
+
+			<tr>
+		<th></th>
+	<th>4</th>
+	<th>Masters</th>
+		<td><input type="text" name="board" maxlength="10"></td>
+			<td><input type="number" step="0.01" min="0" max="100"  name="percentage"></td>
+				<td><input type="text" name="yearofpassing"></td>
+			</tr>
+			<tr>
+		<th></th>
+	<th></th>
+	<th></th>
+		<td>(10 char max)</td>
+			<td>(upto 2 decimal)</td>
+				<td></td>
+			</tr>
+</table><br>
+<label for="course">COURSES APPLIED FOR</label>
+BCA
+<input type="radio" value="BCA" name="course" checked>
+B.Com
+<input type="radio" value="B.Com" name="course">
+B.Sc
+<input type="radio" value="B.Sc" name="course">
+B.A
+<input type="radio" value="B.A" name="course"><br><br>
+
+ <input type="submit" name="submit"   value="Submit" class="button1" />
+ <input type="reset" name="reset"   value="Reset" class="button2" />  
+</form>
+</body>
+</html>				

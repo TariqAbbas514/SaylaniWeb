@@ -1,0 +1,29 @@
+*{
+	
+	color: white;
+}
+label,table, h1, img{
+	margin-left: 300px;
+}
+.button, input, textarea{
+	color: black;
+}
+form{
+	background-color: #6b5acd;
+}
+.heading{
+color: #6b5acd;
+text-decoration: underline;
+}
+table{
+	text-align: center;
+}
+
+
+.button1{
+	margin-left: 500px;
+}
+.button2{
+	margin-left: 10px;
+}
+
